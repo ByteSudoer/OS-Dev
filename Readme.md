@@ -6,6 +6,7 @@
 
 - [Building a Cross-Compiler](#Building-a-Cross-Compiler)
 - [Bare Bones Tutorial](#Bare-Bones-Tutorial)
+- [References](#References)
 
 #### Building a Cross-Compiler
 
@@ -20,6 +21,9 @@ The Bare Bones tutorial is a beginners tutorial (used as an introduction in the 
 - Bootloader (GRUB)
 - ElF files (Executables file format)
 
+> check link to tutorial in [References](#References) section
+
 ### References
 
 - [OS-Dev main page](https://wiki.osdev.org/Main_Page)
+- [Bare Bones Tutorial](https://wiki.osdev.org/Bare_Bones)
