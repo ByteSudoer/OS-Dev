@@ -10,9 +10,15 @@
 
 #### Building a Cross-Compiler
 
+Follow the instructions in this guide [Cross-Compiler].
+
+This script assumes you are using a UNIX-like operating system.Windows users should be able to set up a complete the tutorial from a [WSL](https://wiki.osdev.org/WSL), [MinGW](https://wiki.osdev.org/MinGW) or [Cygwin](https://wiki.osdev.org/Cygwin).
+
+> For full instructions and steps use the links above and refer to the wiki, as the scripts in this project assume you will be building everything with [GCC](https://gnu.org/software/gcc/)
+
 #### Bare Bones Tutorial
 
-The Bare Bones tutorial is a beginners tutorial (used as an introduction in the wiki) that will get you through the basic concepts of OS development like
+The Bare Bones tutorial is a beginners tutorial (used as an introduction in the wiki) that will get you through the basic concepts of OS development like :
 
 - Linkers
 - Assembly
@@ -27,3 +33,5 @@ The Bare Bones tutorial is a beginners tutorial (used as an introduction in the 
 
 - [OS-Dev main page](https://wiki.osdev.org/Main_Page)
 - [Bare Bones Tutorial](https://wiki.osdev.org/Bare_Bones)
+
+[cross-compiler]: ./Cross-Compiler/Readme.md
