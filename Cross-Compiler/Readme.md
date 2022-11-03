@@ -111,3 +111,8 @@ Running the [build-compiler] script will do it. For further reading, please refe
 Running the [build-compiler] script will do it. For further reading, please refer to the [Wiki](https://wiki.osdev.org/GCC_Cross-Compiler).
 
 #### Using the new Compiler
+
+```bash
+$HOME/(your_path_to_the_build)/bin/$TARGET --version
+
+```
