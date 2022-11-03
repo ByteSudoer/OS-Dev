@@ -14,7 +14,7 @@ declare -a debian_dependencies=(
   "libisl-dev"
 )
 
-declare -a fedore_dependencies=(
+declare -a fedora_dependencies=(
   "gcc"
   "gcc-c++"
   "make"
@@ -41,11 +41,13 @@ function detect_os()
     Linux)
       if [ -f "/etc/arch-release" ] || [ -f "/etc/artix-release" ];then
         echo "OS is Arch based"
-        sudo pacman -S "${arch_dependencies[@]}"
+        sudo pacman -S "${arch_dependencies[@]}" --noconfirm
       elif [ -f "/etc/fedora-release" ] || [ -f "/etc/redhat-release" ]; then
-        RECOMMEND_INSTALL="sudo dnf install -y"
+        echo "OS is Fedore based"
+        sudo dnf install "${fedora_dependencies[@]}" -y
       else # assume debian based
-        RECOMMEND_INSTALL="sudo apt install -y"
+        echo "Os is Debian based"
+        sudo apt-get install --yes "${debian_dependencies[@]}"
       fi
     ;;
     *)
