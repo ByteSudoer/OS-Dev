@@ -19,12 +19,12 @@ For full Details on various systems, please refer to this link [Installing Depen
 
 > This script will support Debian(Ubuntu,Mint), Fedora and arch. For other disctributions please refer to you distribution package manager and mirros.
 
-### Downloading Source Code
+### Download Source Code
 
 - Start by downloading the desired GCC and binutils release
   - [GCC main mirror](https://ftp.gnu.org/gnu/gcc/)
   - [Binutils main mirror](https://ftp.gnu.org/gnu/binutils/)
-- Check what version of GCC and Binutils is already installed in you ditribution
+- Check what versions of GCC and Binutils are already installed in you ditribution
 
 ```bash
 gcc --version
@@ -40,3 +40,16 @@ ld --version
   the GNU General Public License version 3 or (at your option) a later version.
   This program has absolutely no warranty.
 ```
+
+### Install System dependencies
+
+you can run the script [dependencies]
+
+```bash
+# Mark the script Executable
+chmod +x dependencies.sh
+# And finally run it
+./dependencies.sh
+```
+
+[dependencies]: ./dependencies.sh
