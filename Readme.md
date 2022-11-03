@@ -6,6 +6,7 @@
 
 - [Building a Cross-Compiler](#Building-a-Cross-Compiler)
 - [Bare Bones Tutorial](#Bare-Bones-Tutorial)
+- [Tools](#Tools)
 - [References](#References)
 
 #### Building a Cross-Compiler
@@ -28,6 +29,18 @@ The Bare Bones tutorial is a beginners tutorial (used as an introduction in the 
 - ElF files (Executables file format)
 
 > check link to tutorial in [References](#References) section
+
+#### Tools
+
+**Virtualisation software :**
+
+- [QEMU](https://www.qemu.org/) you can check this [tutorial](https://linuxhint.com/qemu-tutorial/) to walk through setting up QEMU on your local machine.
+- [Virtual Box](https://www.virtualbox.org/)
+
+**Writing imgage to USB :**
+
+- dd a command line utility for Unix and Unix-like operating systems.
+- [Balena Etcher](https://www.balena.io/etcher/) a FOSS live image creator.
 
 ### References
 
