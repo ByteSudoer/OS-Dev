@@ -6,7 +6,7 @@
 #error "You are not using a cross-compiler, you will most certainly run into troubles"
 #endif
 
-#if defined (__i386__)
+#if !defined (__i386__)
 #error "This tutorial needs to be compiled with a ix86-elf compiler"
 #endif
 
