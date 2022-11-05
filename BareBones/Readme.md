@@ -26,3 +26,8 @@ Available Options:
 ```
 
 > The run Option will start a VM in VNC server.You will need A VNC client to check the progress.
+Example:
+
+
+https://user-images.githubusercontent.com/88513682/200119280-ec304ec7-f43d-48ae-bc21-d3f30d98afd3.mp4
+
