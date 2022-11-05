@@ -1,5 +1,7 @@
 # OS-Dev
 
+![os-dev](https://user-images.githubusercontent.com/88513682/200138941-d30aa341-6f40-487a-8f1f-1026408cb5f8.png)
+
 - This repository is a set of guides and scripts to automate tasks from the OS Dev wiki
 
 ### Table Of Contents
