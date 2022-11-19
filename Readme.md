@@ -9,6 +9,7 @@
 - [Building a Cross-Compiler](#Building-a-Cross-Compiler)
 - [Bare Bones Tutorial](#Bare-Bones-Tutorial)
 - [Tools](#Tools)
+  - [Virtualisation software](#Virtualisation-software)
 - [References](#References)
 
 #### Building a Cross-Compiler
@@ -34,12 +35,12 @@ The Bare Bones tutorial is a beginners tutorial (used as an introduction in the 
 
 #### Tools
 
-**Virtualisation software :**
+##### Virtualisation software
 
 - [QEMU](https://www.qemu.org/) you can check this [tutorial](https://linuxhint.com/qemu-tutorial/) to walk through setting up QEMU on your local machine.
 - [Virtual Box](https://www.virtualbox.org/)
 
-**Writing imgage to USB :**
+##### Writing imgage to USB :
 
 - dd a command line utility for Unix and Unix-like operating systems.
 - [Balena Etcher](https://www.balena.io/etcher/) a FOSS live image creator.
