@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 # 
 #
-# set -xe
-#
-#cores=$(nproc)
+
 
 compressed_dir="$PWD/compressed"
 decompressed_dir="$PWD/decompressed"

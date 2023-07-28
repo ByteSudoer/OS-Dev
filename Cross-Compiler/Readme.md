@@ -60,7 +60,7 @@ user@localhost:$ ld --version
   - [GCC main mirror](https://ftp.gnu.org/gnu/gcc/)
   - [Binutils main mirror](https://ftp.gnu.org/gnu/binutils/)
 
-Or you can edit `lines number 8 and 9` in the [build-compiler] script and change the gcc and binutils version. And the script will automatically download, decompress and build the cross compiler.
+Or you can edit `lines number 10 and 11` in the [build-compiler] script and change the gcc and binutils version. And the script will automatically download, decompress and build the cross compiler.
 
 ```bash
 # Declare GCC & Binutils Versions
